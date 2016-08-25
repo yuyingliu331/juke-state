@@ -1,0 +1,19 @@
+
+
+
+<div ng-show="showMe">
+          <h3>Albums</h3>  
+          <div class="row"> 
+            <div class="col-xs-4" ng-repeat="album in albums"> 
+              <a class="thumbnail" href="#" ng-click="viewAlbum(album.id)">
+                <img ng-src=""> 
+                <div class="caption"> 
+                  <h5> 
+                    <span></span> 
+                  </h5>
+                  <small>songs</small> 
+                </div> 
+              </a> 
+            </div> 
+          </div> 
+        </div>
